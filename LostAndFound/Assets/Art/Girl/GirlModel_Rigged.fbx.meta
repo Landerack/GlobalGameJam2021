@@ -3,7 +3,12 @@ guid: e57b29867e3a8f74bad45d2aec0f6e8d
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TheMat
+    second: {fileID: 2100000, guid: 2073740538c18ba49bd41a03b70b1004, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -13,7 +18,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
-    optimizeGameObjects: 0
+    optimizeGameObjects: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -28,7 +33,24 @@ ModelImporter:
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
-    extraExposedTransformPaths: []
+    extraExposedTransformPaths:
+    - Cube
+    - metarig
+    - metarig/spine
+    - metarig/spine/pelvis.L
+    - metarig/spine/pelvis.R
+    - metarig/spine/spine.001
+    - metarig/spine/spine.001/spine.002
+    - metarig/spine/spine.001/spine.002/spine.003
+    - metarig/spine/spine.001/spine.002/spine.003/shoulder.L
+    - metarig/spine/spine.001/spine.002/spine.003/shoulder.R
+    - metarig/spine/spine.001/spine.002/spine.003/spine.004
+    - metarig/spine/spine.001/spine.002/spine.003/spine.004/spine.005
+    - metarig/spine/spine.001/spine.002/spine.003/spine.004/spine.005/spine.006
+    - metarig/spine/thigh.L
+    - metarig/spine/thigh.L/shin.L
+    - metarig/spine/thigh.R
+    - metarig/spine/thigh.R/shin.R
     extraUserProperties: []
     clipAnimations: []
     isReadable: 0
@@ -90,7 +112,7 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
